@@ -1,0 +1,317 @@
+{
+    "feature_columns": [
+        "Lead Origin",
+        "Lead Source",
+        "Do Not Email",
+        "Do Not Call",
+        "TotalVisits",
+        "Total Time Spent on Website",
+        "Page Views Per Visit",
+        "Last Activity",
+        "Country",
+        "Specialization",
+        "How did you hear about X Education",
+        "What is your current occupation",
+        "What matters most to you in choosing a course",
+        "Search",
+        "Magazine",
+        "Newspaper Article",
+        "X Education Forums",
+        "Newspaper",
+        "Digital Advertisement",
+        "Through Recommendations",
+        "Receive More Updates About Our Courses",
+        "Tags",
+        "Update me on Supply Chain Content",
+        "Get updates on DM Content",
+        "Lead Profile",
+        "City",
+        "I agree to pay the amount through cheque",
+        "A free copy of Mastering The Interview",
+        "Last Notable Activity"
+    ],
+    "numeric_features": [
+        "TotalVisits",
+        "Total Time Spent on Website",
+        "Page Views Per Visit"
+    ],
+    "categorical_features": [
+        "Lead Origin",
+        "Lead Source",
+        "Do Not Email",
+        "Do Not Call",
+        "Last Activity",
+        "Country",
+        "Specialization",
+        "How did you hear about X Education",
+        "What is your current occupation",
+        "What matters most to you in choosing a course",
+        "Search",
+        "Magazine",
+        "Newspaper Article",
+        "X Education Forums",
+        "Newspaper",
+        "Digital Advertisement",
+        "Through Recommendations",
+        "Receive More Updates About Our Courses",
+        "Tags",
+        "Update me on Supply Chain Content",
+        "Get updates on DM Content",
+        "Lead Profile",
+        "City",
+        "I agree to pay the amount through cheque",
+        "A free copy of Mastering The Interview",
+        "Last Notable Activity"
+    ],
+    "category_options": {
+        "Lead Origin": [
+            "API",
+            "Landing Page Submission",
+            "Lead Add Form",
+            "Lead Import",
+            "Quick Add Form"
+        ],
+        "Lead Source": [
+            "Click2call",
+            "Direct Traffic",
+            "Facebook",
+            "Google",
+            "Live Chat",
+            "Olark Chat",
+            "Organic Search",
+            "Press_Release",
+            "Reference",
+            "Referral Sites",
+            "Unknown",
+            "WeLearn",
+            "Welingak Website",
+            "bing",
+            "google",
+            "testone",
+            "welearnblog_Home"
+        ],
+        "Do Not Email": [
+            "No",
+            "Yes"
+        ],
+        "Do Not Call": [
+            "No",
+            "Yes"
+        ],
+        "Last Activity": [
+            "Approached upfront",
+            "Converted to Lead",
+            "Email Bounced",
+            "Email Link Clicked",
+            "Email Opened",
+            "Email Received",
+            "Form Submitted on Website",
+            "Had a Phone Conversation",
+            "Olark Chat Conversation",
+            "Page Visited on Website",
+            "Resubscribed to emails",
+            "SMS Sent",
+            "Unknown",
+            "Unreachable",
+            "Unsubscribed",
+            "View in browser link Clicked",
+            "Visited Booth in Tradeshow"
+        ],
+        "Country": [
+            "Asia/Pacific Region",
+            "Australia",
+            "Bahrain",
+            "Bangladesh",
+            "Belgium",
+            "Canada",
+            "China",
+            "Denmark",
+            "France",
+            "Germany",
+            "Ghana",
+            "Hong Kong",
+            "India",
+            "Indonesia",
+            "Italy",
+            "Kenya",
+            "Kuwait",
+            "Malaysia",
+            "Netherlands",
+            "Nigeria",
+            "Oman",
+            "Philippines",
+            "Qatar",
+            "Russia",
+            "Saudi Arabia",
+            "Singapore",
+            "South Africa",
+            "Sri Lanka",
+            "Sweden",
+            "Switzerland",
+            "Uganda",
+            "United Arab Emirates",
+            "United Kingdom",
+            "United States",
+            "Unknown",
+            "Vietnam",
+            "unknown"
+        ],
+        "Specialization": [
+            "Banking, Investment And Insurance",
+            "Business Administration",
+            "E-Business",
+            "E-COMMERCE",
+            "Finance Management",
+            "Healthcare Management",
+            "Hospitality Management",
+            "Human Resource Management",
+            "IT Projects Management",
+            "International Business",
+            "Marketing Management",
+            "Media and Advertising",
+            "Operations Management",
+            "Retail Management",
+            "Rural and Agribusiness",
+            "Services Excellence",
+            "Supply Chain Management",
+            "Travel and Tourism",
+            "Unknown"
+        ],
+        "How did you hear about X Education": [
+            "Advertisements",
+            "Email",
+            "Multiple Sources",
+            "Online Search",
+            "Other",
+            "SMS",
+            "Social Media",
+            "Student of SomeSchool",
+            "Unknown",
+            "Word Of Mouth"
+        ],
+        "What is your current occupation": [
+            "Businessman",
+            "Housewife",
+            "Other",
+            "Student",
+            "Unemployed",
+            "Unknown",
+            "Working Professional"
+        ],
+        "What matters most to you in choosing a course": [
+            "Better Career Prospects",
+            "Flexibility & Convenience",
+            "Unknown"
+        ],
+        "Search": [
+            "No",
+            "Yes"
+        ],
+        "Magazine": [
+            "No"
+        ],
+        "Newspaper Article": [
+            "No",
+            "Yes"
+        ],
+        "X Education Forums": [
+            "No",
+            "Yes"
+        ],
+        "Newspaper": [
+            "No",
+            "Yes"
+        ],
+        "Digital Advertisement": [
+            "No",
+            "Yes"
+        ],
+        "Through Recommendations": [
+            "No",
+            "Yes"
+        ],
+        "Receive More Updates About Our Courses": [
+            "No"
+        ],
+        "Tags": [
+            "Already a student",
+            "Busy",
+            "Closed by Horizzon",
+            "Diploma holder (Not Eligible)",
+            "Graduation in progress",
+            "In confusion whether part time or DLP",
+            "Interested  in full time MBA",
+            "Interested in Next batch",
+            "Interested in other courses",
+            "Lateral student",
+            "Lost to EINS",
+            "Lost to Others",
+            "Not doing further education",
+            "Recognition issue (DEC approval)",
+            "Ringing",
+            "Shall take in the next coming month",
+            "Still Thinking",
+            "University not recognized",
+            "Unknown",
+            "Want to take admission but has financial problems",
+            "Will revert after reading the email",
+            "in touch with EINS",
+            "invalid number",
+            "number not provided",
+            "opp hangup",
+            "switched off",
+            "wrong number given"
+        ],
+        "Update me on Supply Chain Content": [
+            "No"
+        ],
+        "Get updates on DM Content": [
+            "No"
+        ],
+        "Lead Profile": [
+            "Dual Specialization Student",
+            "Lateral Student",
+            "Other Leads",
+            "Potential Lead",
+            "Student of SomeSchool",
+            "Unknown"
+        ],
+        "City": [
+            "Mumbai",
+            "Other Cities",
+            "Other Cities of Maharashtra",
+            "Other Metro Cities",
+            "Thane & Outskirts",
+            "Tier II Cities",
+            "Unknown"
+        ],
+        "I agree to pay the amount through cheque": [
+            "No"
+        ],
+        "A free copy of Mastering The Interview": [
+            "No",
+            "Yes"
+        ],
+        "Last Notable Activity": [
+            "Approached upfront",
+            "Email Bounced",
+            "Email Link Clicked",
+            "Email Opened",
+            "Email Received",
+            "Form Submitted on Website",
+            "Had a Phone Conversation",
+            "Modified",
+            "Olark Chat Conversation",
+            "Page Visited on Website",
+            "Resubscribed to emails",
+            "SMS Sent",
+            "Unreachable",
+            "Unsubscribed"
+        ]
+    },
+    "numeric_defaults": {
+        "TotalVisits": 3.0,
+        "Total Time Spent on Website": 251.0,
+        "Page Views Per Visit": 2.0
+    }
+}
